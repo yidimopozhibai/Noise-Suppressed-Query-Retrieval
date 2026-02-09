@@ -1,6 +1,8 @@
 
 
-## 🚀 Anonymous Running Instructions
+#  Learning Where to Embed: Noise-Aware Positional Embedding for Query Retrieval in Small-Object Detection
+
+## 🚀 Anonymous Running Instructions 
 
 This repository contains the code and experimental setup for our 2026 work on HMPE-Bone. Below are the standard procedures to run the project and reproduce our results.
 
@@ -11,6 +13,8 @@ This repository contains the code and experimental setup for our 2026 work on HM
 | Our work | 2026 | HMPE-Bone | 100 | 57 | 66.3 | 70.62 | 51.59 | 94.51 | 67.20 |
 
 ---
+
+
 
 ### 📁 Project Structure Overview
 
@@ -35,7 +39,7 @@ Recommended: Python >= 3.8. Install dependencies with:
 pip install -r requirements.txt
 ```
 
-For advanced features (DCNv4, Mamba, etc.), please refer to instructions in `ultralytics/nn/extra_modules/` for additional compilation or installation.
+
 
 ---
 

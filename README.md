@@ -1,7 +1,7 @@
 
 
 #  Learning Where to Embed: Noise-Aware Positional Embedding for Query Retrieval in Small-Object Detection
-
+- This work still need to be updated.
 ## 🚀 Anonymous Running Instructions 
 
 This repository contains the code and experimental setup for our 2026 work on HMPE-Bone. Below are the standard procedures to run the project and reproduce our results.

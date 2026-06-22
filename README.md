@@ -2,6 +2,16 @@
 
 #  Learning Where to Embed: Noise-Aware Positional Embedding for Query Retrieval in Small-Object Detection
 - This work still need to be updated.
+```
+@inproceedings{zeng2026learning,
+  title={Learning where to embed: Noise-aware positional embedding for query retrieval in small-object detection},
+  author={Zeng, Yangchen and Yu, Zhenyu and Jiang, Dongming and Zhang, Wenbo and Hong, Yifan and Hu, Zhanhua and Luo, Jiao and Cui, Kangning},
+  booktitle={Proceedings of the 2026 International Conference on Multimedia Retrieval},
+  pages={1260--1269},
+  year={2026}
+}
+```
+
 ## 🚀 Anonymous Running Instructions 
 
 This repository contains the code and experimental setup for our 2026 work on HMPE-Bone. Below are the standard procedures to run the project and reproduce our results.

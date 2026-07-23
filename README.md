@@ -1,7 +1,7 @@
 
 
 #  Learning Where to Embed: Noise-Aware Positional Embedding for Query Retrieval in Small-Object Detection
-- This work still need to be updated.
+
 ```
 @inproceedings{zeng2026learning,
   title={Learning where to embed: Noise-aware positional embedding for query retrieval in small-object detection},
@@ -41,9 +41,6 @@ This repository contains the code and experimental setup for our 2026 work on HM
 
 ---
 
-### ⚙️ Environment Setup
-
-Recommended: Python >= 3.8. Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
@@ -68,12 +65,6 @@ python train.py \
     --project runs/train \
     --name exp_anonymous
 ```
-
-Parameters explanation:
-- `--model`: Model configuration file path (located in `ultralytics/cfg/models/rt-detr/`)
-- `--data`: Dataset configuration file path (recommended with absolute path)
-- `--project`: Main directory for experiment results
-- `--name`: Current experiment name
 
 ---
 
@@ -109,31 +100,6 @@ python val.py \
     --name exp_anonymous_val
 ```
 
----
-
-### 📊 Training and Validation Visualization
-
-Metrics are automatically logged to `runs/train/exp_anonymous/` during training. View with TensorBoard:
-
-```bash
-tensorboard --logdir runs/train/exp_anonymous/
-```
-
----
-
-### 🧹 Clean Cache (Optional)
-
-Remove Python cache files:
-
-```bash
-find . -type d -name __pycache__ | xargs rm -rf
-```
-
----
-
-All outputs will be saved in the `runs/` folder by default for easy management and experiment reproduction.
-
----
 
 > ⚠️ Note: This is an anonymous shared version. Sensitive paths and configurations have been sanitized. Please modify relevant paths according to your local environment before use.
 

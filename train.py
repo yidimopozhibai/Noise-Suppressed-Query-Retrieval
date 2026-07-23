@@ -14,7 +14,7 @@ import torch
 # print(torch.cuda.is_available())
 # print(torch.version.cuda)
 # print("==========================================")
-#train exp142024年11月27日11:04:01
+#train exp142024年11月27日11:04:01 for acm mm/icmr版本
 #
 if __name__ == '__main__':
     model = RTDETR('ultralytics/cfg/models/rt-detr/rtdetr-r18.yaml')
